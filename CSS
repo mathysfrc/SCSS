@@ -1,0 +1,77 @@
+.myPreciousR1 {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0.3333333333rem solid #CB6D00;
+  border-radius: 50%;
+  box-shadow: 0.3333333333rem 0.3333333333rem 5px #fe8800;
+  margin: 5px;
+}
+
+.myPreciousR2 {
+  width: 5rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.8333333333rem solid #FFD600;
+  border-radius: 50%;
+  box-shadow: 0.8333333333rem 0.8333333333rem 5px #ffde33;
+  margin: 5px;
+}
+
+.myPreciousR-1 {
+  width: 1rem;
+  height: 1rem;
+  background-color: transparent;
+  border: 0.1666666667rem solid #323232;
+  border-radius: 50%;
+  box-shadow: 0.1666666667rem 0.1666666667rem 5px #4c4c4c;
+  margin: 5px;
+}
+
+.myPreciousR-1 {
+  position: absolute;
+  left: 2rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: transparent;
+  border: 0.1666666667rem solid #323232;
+  border-radius: 50%;
+  box-shadow: 0.1666666667rem 0.1666666667rem 5px #4c4c4c;
+  margin: 5px;
+}
+
+.myPreciousR-2 {
+  position: absolute;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0.3333333333rem solid #323232;
+  border-radius: 50%;
+  box-shadow: 0.3333333333rem 0.3333333333rem 5px #4c4c4c;
+  margin: 5px;
+}
+
+.myPreciousR-3 {
+  position: absolute;
+  left: 6rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 0.5rem solid #323232;
+  border-radius: 50%;
+  box-shadow: 0.5rem 0.5rem 5px #4c4c4c;
+  margin: 5px;
+}
+
+.myPreciousR-4 {
+  position: absolute;
+  left: 8rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 0.6666666667rem solid #323232;
+  border-radius: 50%;
+  box-shadow: 0.6666666667rem 0.6666666667rem 5px #4c4c4c;
+  margin: 5px;
+}
