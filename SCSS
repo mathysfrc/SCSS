@@ -1,0 +1,25 @@
+ @mixin ring ($largeur: 1rem, $hauteur: 1rem, $color: #FF0000) {
+        width: $largeur;
+        height: $hauteur;
+        background-color: transparent;
+        border: $largeur/6 solid $color;
+        border-radius: 50%;
+        box-shadow: $largeur/6 $hauteur/6 5px lighten($color, 10);
+        margin: 5px;
+    } 
+    .myPreciousR1 {
+        @include ring(2rem, 2rem, #CB6D00)
+    }
+    .myPreciousR2 {
+        @include ring(5rem, 5rem, #FFD600)
+    }
+    .myPreciousR-1 {
+        @include ring(1rem, 1rem, #323232)
+    }
+    @for $i from 1 through 4 {
+        .myPreciousR-#{$i} {
+            position: absolute;
+            left: 2rem*$i;
+            @include ring(1rem*$i, 1rem*$i, #323232)
+    }
+    }
